@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BismaNoor·Developer·AIResearcher</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<nav id="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="#home">Bisma<span>.dev</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">What I Do</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-primary nav-cta">Contact Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero" id="home">
+  <div class="container hero-inner">
+    <div>
+      <span class="badge reveal">👋 Hi there, my name is</span>
+      <h1 class="reveal" style="transition-delay:.08s">Bisma <span style="color:#F0559B;">Noor</span></h1>
+      <div class="role reveal" style="transition-delay:.16s">
+        Front-End Developer · <span class="typed" id="typed"></span><span class="caret"></span>
+      </div>
+      <p class="lead reveal" style="transition-delay:.24s">
+        I build beautiful, fast websites with code and WordPress, explore AI as a
+        researcher and grad student, grow brands with digital marketing — and back
+        it all up with friendly, human customer support.
+      </p>
+      <div class="hero-cta reveal" style="transition-delay:.32s">
+        <a href="#projects" class="btn btn-primary">View My Work →</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="socials reveal" style="transition-delay:.4s">
+        <a href="https://github.com/Bismhnoor"  target="_blank" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+        <a href="https://www.linkedin.com/in/bisma-noor-918b53346" target="_blank" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V8h4v1a6 6 0 0 1 4-1z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a href="#" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+        <a href="mailto:bismanoor0673@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+      </div>
+    </div>
+
+    <!-- Illustration: laptop + plant + books + AI chip + brain -->
+    <div class="hero-art reveal" style="transition-delay:.2s">
+      <div class="scene">
+        <div class="scene-blob"></div>
+        <div class="scene-ring"></div>
+
+        <div class="float f-laptop">
+          <svg viewBox="0 0 300 200">
+            <rect x="62" y="6" width="176" height="116" rx="10" fill="#fff" stroke="#3A1E33" stroke-width="5"/>
+            <circle cx="150" cy="14" r="2.5" fill="#3A1E33"/>
+            <circle cx="76" cy="28" r="4" fill="#FF8FB8"/><circle cx="90" cy="28" r="4" fill="#FFC94D"/><circle cx="104" cy="28" r="4" fill="#7BD3B2"/>
+            <rect x="76" y="42" width="74" height="8" rx="4" fill="#FFB8D2"/>
+            <rect x="88" y="58" width="98" height="8" rx="4" fill="#F3D6FF"/>
+            <rect x="88" y="74" width="62" height="8" rx="4" fill="#C9A8F5"/>
+            <rect x="76" y="90" width="112" height="8" rx="4" fill="#FFE0EC"/>
+            <rect x="76" y="106" width="46" height="8" rx="4" fill="#FFB8D2"/>
+            <path d="M38 126 h224 l22 32 a10 10 0 0 1 -9 15 H25 a10 10 0 0 1 -9 -15 z" fill="#F0559B" stroke="#3A1E33" stroke-width="5" stroke-linejoin="round"/>
+            <rect x="126" y="138" width="48" height="8" rx="4" fill="#3A1E33" opacity=".3"/>
+          </svg>
+        </div>
+
+        <div class="float f-chip">
+          <svg viewBox="0 0 130 130">
+            <g stroke="#3A1E33" stroke-width="5" stroke-linecap="round">
+              <line x1="45" y1="6" x2="45" y2="20"/><line x1="65" y1="6" x2="65" y2="20"/><line x1="85" y1="6" x2="85" y2="20"/>
+              <line x1="45" y1="110" x2="45" y2="124"/><line x1="65" y1="110" x2="65" y2="124"/><line x1="85" y1="110" x2="85" y2="124"/>
+              <line x1="6" y1="45" x2="20" y2="45"/><line x1="6" y1="65" x2="20" y2="65"/><line x1="6" y1="85" x2="20" y2="85"/>
+              <line x1="110" y1="45" x2="124" y2="45"/><line x1="110" y1="65" x2="124" y2="65"/><line x1="110" y1="85" x2="124" y2="85"/>
+            </g>
+            <rect x="24" y="24" width="82" height="82" rx="16" fill="#B9A6FF" stroke="#3A1E33" stroke-width="5"/>
+            <text x="65" y="80" text-anchor="middle" font-family="Sora, sans-serif" font-weight="800" font-size="34" fill="#fff">AI</text>
+          </svg>
+        </div>
+
+        <div class="float f-brain">
+          <svg viewBox="0 0 110 100">
+            <path d="M55 8 C38 8 28 20 30 32 C18 35 14 50 24 58 C20 72 32 84 44 79 C50 90 66 90 71 79 C84 84 95 72 90 58 C99 50 94 35 82 32 C84 20 72 8 60 12 C58 10 57 8 55 8Z"
+              fill="#FFB8D2" stroke="#3A1E33" stroke-width="4.5" stroke-linejoin="round"/>
+            <path d="M55 16 V84" stroke="#3A1E33" stroke-width="3" stroke-dasharray="1 7" stroke-linecap="round"/>
+            <circle cx="38" cy="36" r="3.5" fill="#E23A85"/>
+            <circle cx="42" cy="54" r="3.5" fill="#7BD3B2"/>
+            <circle cx="68" cy="40" r="3.5" fill="#B9A6FF"/>
+            <circle cx="72" cy="58" r="3.5" fill="#FFC94D"/>
+          </svg>
+        </div>
+
+        <div class="float f-plant">
+          <svg viewBox="0 0 120 130">
+            <path d="M58 84 C30 76 16 48 24 22 C52 30 66 50 58 84Z" fill="#7BD3B2" stroke="#3A1E33" stroke-width="4"/>
+            <path d="M62 84 C90 76 104 48 96 22 C68 30 54 50 62 84Z" fill="#A5E6C8" stroke="#3A1E33" stroke-width="4"/>
+            <path d="M60 88 C50 64 54 36 60 12 C70 36 72 64 60 88Z" fill="#4FBF84" stroke="#3A1E33" stroke-width="4"/>
+            <rect x="30" y="86" width="60" height="14" rx="7" fill="#E23A85" stroke="#3A1E33" stroke-width="4"/>
+            <path d="M36 100 h48 l-6 24 a8 8 0 0 1 -8 6 h-20 a8 8 0 0 1 -8 -6 z" fill="#F0559B" stroke="#3A1E33" stroke-width="4" stroke-linejoin="round"/>
+          </svg>
+        </div>
+
+        <div class="float f-books">
+          <svg viewBox="0 0 170 84">
+            <g stroke="#3A1E33" stroke-width="4" stroke-linejoin="round">
+              <rect x="8" y="58" width="140" height="20" rx="7" fill="#B9A6FF"/>
+              <rect x="24" y="36" width="112" height="20" rx="7" fill="#FF8FB8"/>
+              <rect x="16" y="14" width="120" height="20" rx="7" fill="#FFC94D"/>
+            </g>
+            <rect x="34" y="43" width="40" height="6" rx="3" fill="#fff" opacity=".8"/>
+            <rect x="28" y="21" width="52" height="6" rx="3" fill="#fff" opacity=".8"/>
+            <rect x="18" y="65" width="60" height="6" rx="3" fill="#fff" opacity=".8"/>
+          </svg>
+        </div>
+
+        <span class="spark sp1">✦</span><span class="spark sp2">✿</span>
+        <span class="spark sp3">✦</span><span class="spark sp4">♥</span>
+        <span class="dot-float d1"></span><span class="dot-float d2"></span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== MARQUEE ===================== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <div class="m-group">
+      <span class="m-item">HTML5<i>✦</i></span><span class="m-item">CSS3<i>✦</i></span>
+      <span class="m-item">JavaScript<i>✦</i></span><span class="m-item">WordPress<i>✦</i></span>
+      <span class="m-item">Elementor<i>✦</i></span><span class="m-item">WooCommerce<i>✦</i></span>
+      <span class="m-item">Python<i>✦</i></span><span class="m-item">Machine Learning<i>✦</i></span>
+      <span class="m-item">SEO<i>✦</i></span><span class="m-item">Digital Marketing<i>✦</i></span>
+      <span class="m-item">Customer Support<i>✦</i></span>
+    </div>
+    <div class="m-group">
+      <span class="m-item">HTML5<i>✦</i></span><span class="m-item">CSS3<i>✦</i></span>
+      <span class="m-item">JavaScript<i>✦</i></span><span class="m-item">WordPress<i>✦</i></span>
+      <span class="m-item">Elementor<i>✦</i></span><span class="m-item">WooCommerce<i>✦</i></span>
+      <span class="m-item">Python<i>✦</i></span><span class="m-item">Machine Learning<i>✦</i></span>
+      <span class="m-item">SEO<i>✦</i></span><span class="m-item">Digital Marketing<i>✦</i></span>
+      <span class="m-item">Customer Support<i>✦</i></span>
+    </div>
+  </div>
+</div>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">About Me</span>
+      <h2>Code with heart, build with curiosity</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>I'm Bisma — a web developer and WordPress
+           specialist who loves turning ideas into clean, modern, and user-friendly websites.
+           with 2+ years of experience, I've worked on responsive websites, custom WordPress solutions, 
+          front-end development, website optimization, and creating digital experiences that are both
+          functional and visually engaging.I enjoy taking a project from an initial idea to a polished,
+           fast, and professional website — whether it's a custom website, a WordPress business site, 
+           or a website that needs a fresh new look. 🌸</p>
+        <div class="stats">
+          <div class="stat"><strong data-count="2" data-suffix="+">0</strong><span>Years Experience</span></div>
+          <div class="stat"><strong data-count="3" data-suffix="+">0</strong><span>Websites Built</span></div>
+          <div class="stat"><strong data-count="3" data-suffix="+">0</strong><span>Happy Clients</span></div>
+        </div>
+      </div>
+      <div class="about-card reveal" style="transition-delay:.15s">
+        <div class="avatar">BN</div>
+        <h3>Bisma Noor</h3>
+        <div class="sub">Developer · Researcher · Digital Marketer</div>
+        <ul>
+          <li>📍&nbsp;<span><b>Rawalpindi-</b>Pakistan</span></li>
+          <li>✉️&nbsp;<span>bismanoor0673@gmail.com</span></li>
+          <li>🎓&nbsp;<span>MS Artificial Intelligence <b>In progress</b></span></li>
+          <li>🌱&nbsp;<span>Currently learning <b>Artificial Intelligence </b></span></li>
+         
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WHAT I DO ===================== -->
+<section id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">My Roles</span>
+      <h2>One person, many hats 🎩</h2>
+    </div>
+    <div class="roles-grid">
+      <div class="role-card reveal">
+        <div class="role-icon i-pink">💻</div>
+        <h3>Front-End Developer</h3>
+        <p>Responsive, pixel-perfect websites built with HTML, CSS, JavaScript and modern tools.</p>
+      </div>
+      <div class="role-card reveal" style="transition-delay:.06s">
+        <div class="role-icon i-purple">🌐</div>
+        <h3>WordPress Developer</h3>
+        <p>Custom themes, Elementor pages and WooCommerce stores that are fast and easy to manage.</p>
+      </div>
+      <div class="role-card reveal" style="transition-delay:.12s">
+        <div class="role-icon i-green">🤖</div>
+        <h3>AI Researcher</h3>
+        <p>Exploring AI in healthcare researching machine learning approaches to build smarter and more practical healthcare solutions.</p>
+      </div>
+      <div class="role-card reveal" style="transition-delay:.18s">
+        <div class="role-icon i-yellow">🎓</div>
+        <h3>MS AI Student</h3>
+        <p>Pursuing a Master's in Artificial Intelligence , deep learning, data science and beyond.</p>
+      </div>
+      <div class="role-card reveal" style="transition-delay:.24s">
+        <div class="role-icon i-pink">📈</div>
+        <h3>Digital Marketing</h3>
+        <p>SEO, content, paid campaigns and social media management that help small brands get seen and grow.</p>
+      </div>
+      <div class="role-card reveal" style="transition-delay:.3s">
+        <div class="role-icon i-green">💬</div>
+        <h3>Customer Support</h3>
+        <p>Fast, empathetic customer support handling calls, understanding customer needs, and providing assistance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">Skills</span>
+      <h2>Tools &amp; Technologies</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <h3>📊 Core Skills</h3>
+        <div class="skill"><div class="skill-top"><span>MS Word</span><span>98%</span></div><div class="bar"><div class="bar-fill" data-level="98"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>HTML &amp; CSS &amp;  Bootstrap </span><span>95%</span></div><div class="bar"><div class="bar-fill" data-level="95"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>WordPress </span><span>92%</span></div><div class="bar"><div class="bar-fill" data-level="92"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>JavaScript</span><span>88%</span></div><div class="bar"><div class="bar-fill" data-level="88"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>Digital Marketing</span><span>85%</span></div><div class="bar"><div class="bar-fill" data-level="85"></div></div></div>
+        <div class="skill"><div class="skill-top"><span>Python &amp; Machine Learning</span><span>78%</span></div><div class="bar"><div class="bar-fill" data-level="78"></div></div></div>
+      </div>
+      <div class="reveal" style="transition-delay:.15s">
+        <div class="tool-group">
+          <h4>🎨 Front-End</h4>
+          <div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Bootstrap</span><span class="tag">Responsive Design</span></div>
+        </div>
+        <div class="tool-group">
+          <h4>🌐 WordPress</h4>
+          <div class="tags"><span class="tag">WordPress</span><span class="tag">Elementor Pro</span><span class="tag">WooCommerce</span><span class="tag">Custom Themes</span></div>
+        </div>
+        <div class="tool-group">
+          <h4>🤖 AI &amp; Research</h4>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag">Prompt Engineering</span><span class="tag">Pandas</span><span class="tag">scikit-learn</span></div>
+        </div>
+        <div class="tool-group">
+          <h4>📈 Digital Marketing</h4>
+          <div class="tags"><span class="tag">SEO</span><span class="tag">Google Analytics</span><span class="tag">Meta Ads</span><span class="tag">Google Ads</span><span class="tag">Content Marketing</span><span class="tag">Facebook Marketing</span><span class="tag">Email Marketing</span><span class="tag">Canva</span></div>
+        </div>
+        <div class="tool-group">
+          <h4>💬 Customer Support</h4>
+          <div class="tags"><span class="tag">Messenger</span><span class="tag">Calls</span><span class="tag">Live Chat</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">Portfolio</span>
+      <h2>Things I've Built</h2>
+    </div>
+    <div class="projects-grid">
+      <article class="project reveal">
+        <div class="project-thumb t-pink">🌸</div>
+        <div class="project-body">
+          <h3>Personal Portfolio Website</h3>
+          <p>This portfolio website is designed and built using HTML and CSS, focusing on a clean, modern, and responsive layout.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          <div class="project-links"><a href="../porfolio/index.html" target="_blank">Live Demo ↗</a><a href="https://github.com/Bismhnoor"  target="_blank">Source Code</a></div>
+        </div>
+      </article>
+      <article class="project reveal" style="transition-delay:.08s">
+        <div class="project-thumb t-purple">🛍️</div>
+        <div class="project-body">
+         <h3>Noor Jewellery · Jewellery Website</h3> <p>An elegant jewellery website with organized categories, product filters, and a clean, visually appealing design.</p>    <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <div class="project-links"><a href="../Jewellery site/index.html" target="_blank">Live Demo ↗</a><a href="#">Case Study</a></div>
+        </div>
+      </article>
+      <article class="project reveal" style="transition-delay:.16s">
+        <div class="project-thumb t-green">🧠</div>
+        <div class="project-body">
+          <h3>RECHNER RC·1</h3>
+          <p>A sleek calculator interface built with an interactive tear-off receipt feature — every calculation is recorded on the receipt, while tearing it off clears the current receipt and generates a fresh one for new calculations.</p>   <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <div class="project-links"><a href="../Calculator/index.html" target="_blank">Live Demo ↗</a><a href="#">Source Code</a></div>
+        </div>
+      </article>
+      
+     
+      
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERIENCE ===================== -->
+<section id="experience">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="kicker">Journey</span>
+      <h2>Work Experience &amp; Education</h2>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal">
+      <div class="t-item reveal" style="transition-delay:.08s">
+        <div class="t-dot">🎓</div>
+        <span class="period">2025 — Present</span>
+        <h3>MS Artificial Intelligence Student(AI Researcher )</h3>
+        <h4>University of Information Technology</h4>
+        <p>Exploring AI research in healthcare, with a focus on developing intelligent solutions for real-world healthcare applications.</p>
+      </div>
+      <div class="t-item reveal" style="transition-delay:.16s">
+        <div class="t-dot">💻</div>
+        <span class="period">2024 — Present</span>
+        <h3>Freelance Front-End &amp; WordPress Developer</h3>
+        <h4>Self-Employed · Remote</h4>
+        <p>Built 3+ responsive frontend projects using HTML, CSS, Bootstrap, JavaScript, and WordPress. </p>
+      </div>
+      <div class="t-item reveal" style="transition-delay:.24s">
+        <div class="t-dot">📈</div>
+        <span class="period">2025 — 2025</span>
+        <h3>Digital Marketing </h3>
+        <h4>Freelance</h4>
+        <p>Managed social media accounts, scheduled and uploaded posts, and managed Facebook Ads to support business growth.</p>
+      </div>
+      <div class="t-item reveal" style="transition-delay:.32s">
+        <div class="t-dot">💬</div>
+        <span class="period">2025 — 2025</span>
+        <h3>Customer Support Specialist</h3>
+        <h4>Nexuse — UK-Based Company</h4>
+        <p>Handled customer calls, built relationships, and supported sales through effective communication.</p>
+      </div>
+      <div class="t-item reveal" style="transition-delay:.4s">
+        <div class="t-dot">📚</div>
+        <span class="period">2020 — 2024</span>
+        <h3>BS Information Technology</h3>
+        <h4>Rawalpindi Women University</h4>
+        <p>Bachelor’s degree in Information Technology | 4 Years</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-card reveal">
+      <h2>Let's build something lovely 💌</h2>
+      <p>Need a website, a WordPress store, an AI experiment, a marketing boost —
+      or just a friendly troubleshooter? My inbox is always open.</p>
+      <a href="mailto:hello@bismanoor.dev" class="btn btn-white">Say Hello →</a>
+      <div class="socials">
+        <a href="https://github.com/Bismhnoor"  target="_blank" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+        <a href="https://www.linkedin.com/in/bisma-noor-918b53346"  target="_blank"aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V8h4v1a6 6 0 0 1 4-1z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+        <a href="mailto:bismanoor0673@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    © <span id="year"></span> Bisma Noor — hand-coded with <span class="heart">♥</span>
+    <a href="#home">Back to top ↑</a>
+  </div>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
