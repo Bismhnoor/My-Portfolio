@@ -45,7 +45,7 @@ const countObs = new IntersectionObserver(entries => {
 document.querySelectorAll('[data-count]').forEach(el => countObs.observe(el));
 
 /* ---- Typewriter: your other roles ---- */
-const words = ['WordPress Developer', 'AI Researcher', 'MS AI Student', 'Digital Marketer', 'Customer Support'];
+const words = ['WordPress Developer', 'AI Researcher', 'MS AI Student', 'Social Media Marketer', 'Customer Support'];
 let wi = 0, ci = 0, deleting = false;
 const typedEl = document.getElementById('typed');
 (function type(){
